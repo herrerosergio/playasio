@@ -1,0 +1,110 @@
+div#contenedor {
+    background-image: urL(images/fine-sand.jpg);
+    background-color: transparent;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    text-align: right;
+}
+
+.hiddenmenu {
+    display: none;
+    position: absolute;
+}
+
+div.envolven {
+    display: flex;
+    flex-direction: row;
+}
+
+div.motiv {
+    background-color: white;
+    height: 240px;
+    padding: 20px;
+    width: 45vw;
+}
+
+div.motiv p:last-child {
+    color: red;
+    text-transform: uppercase;
+}
+
+div.promo {
+    order: -1;
+    padding: 20px;
+    width: 45vw;
+}
+
+div.promo p:first-of-type {
+    color: red;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+ /*Quiero que me cambie todas las imágenes excepto la lupa de búsqueda*/
+div > img {
+    width: 205px;
+    height: 137px;
+}
+
+aside#lugares div {
+    width: 32vw;
+}
+span.nombres {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+span.precio {
+    color: darkred;
+    font-size: 22px;
+    font-style: italic;
+}
+
+div#precios {
+    align-self: center;
+    width: 80vw;
+}
+
+div.interes {
+    align-self: center;
+    width: 90vw;
+}
+
+div.interes p {
+    column-count: 2;
+    column-rule: 1px black solid;
+    column-gap: 20px;
+}
+
+form.formulario {
+    border: 2px solid black;
+    text-align: left;
+}
+div#sede {
+    padding: 15px;
+}
+
+iframe {
+    padding-left: 15px;
+    width: 60vw;    
+}
+
+footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify; 
+}

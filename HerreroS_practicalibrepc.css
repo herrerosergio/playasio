@@ -1,0 +1,155 @@
+div#contenedor {
+    background-image: urL(images/fine-sand.jpg);
+    background-color: transparent;
+    background-repeat: repeat;
+    float: left;
+    position: relative;
+    text-align: left;
+    top: 0px;
+    width: 1895px;
+}
+
+header {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    float: right;
+    position: relative;
+    right: 50px;
+    top: -140px;
+}
+
+nav {
+    float: left;
+    position: relative;
+    top: -60px;
+    width: 100%;  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:active {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6A6A6A;
+    color: white;
+}
+
+.hiddenmenu {
+    display: none;
+    position: absolute;
+}
+
+nav li:hover > ul {
+    display: block;
+    font-size: 12px;
+}
+
+nav li:hover > ul li {
+    margin: 0;
+}
+
+div.motiv {
+    background-color: white;
+    float: right;
+    padding: 10px;
+    position: relative;
+    right: 30px;
+    top: -10px;
+    width: 250px;
+}
+
+div.motiv p:last-child {
+    color: red;
+    text-transform: uppercase;
+}
+
+div.promo {
+    clear: right;
+    float: right;
+    padding: 10px;
+    position: relative;
+    right: 30px;
+    top: 100px;
+    width: 250px;
+}
+
+div.promo p:first-of-type {
+    color: red;
+}
+
+aside {
+    float: left;
+    margin-top: -25px;
+    position: relative;
+    text-align: center;
+    top: -295px;
+    width: 85%;
+}
+
+aside div {
+    float: left;
+    padding-left: 30px;
+    position: relative;
+    width: 30%;
+}
+
+span.nombres {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+span.precio {
+    color: darkred;
+    font-size: 35px;
+    font-style: italic;
+}
+
+div#precios {
+    float: left;
+    padding-left: 25px;
+    position: relative;
+    top: -250px;
+    width: 40%;
+}
+
+div.interes {
+    float: right;
+    position: relative;
+    top: -250px;
+    right: 70px;
+    width: 55%;
+}
+
+div.interes p{
+    column-count: 2;
+    column-rule: 1px black solid;
+    column-gap: 20px;
+}
+
+form.formulario {
+    border: 2px solid black;
+    left: 25px;
+    float: left;
+    position: relative;
+}
+
+footer {
+    bottom: 120px;
+    float: left;
+    height: 570px;
+    left: 25px;
+    position: relative;
+    width: 100%;
+}
